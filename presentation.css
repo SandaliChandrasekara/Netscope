@@ -1,0 +1,40 @@
+.movie-content{
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: #fff;
+        }
+      
+        .movie-content p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 20px;
+        }
+
+        .row:after{
+          content: "";
+          display: table;
+          clear:both;
+        }
+
+        .column {
+          float:left;
+          width:25%;
+        }
+
+        .team {
+          /*display: inline-flex;*/
+          color: white;
+          font-size: 1.4em; 
+          font-weight: bold;
+          text-align: center;
+          font-family: cursive;
+          font-style: italic;
+        }
+        
+        h2 {
+          padding-right: 25%;
+          width: fit-content;
+        }
