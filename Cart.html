@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang = "en" >
+<head>
+	<meta charset="UTF-8">
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" href = "student01_css/card.css">
+    <link rel = "stylesheet" href = "student01_css/buyproducts.css">
+    <script src="student01_js/main.js"></script>
+    <script src="student01_js/store.js"></script>
+    
+    <title>Online Payment</title>
+	
+    <style>
+    
+    body {
+        background-image: url("student01_images/eye.jpg");
+    }
+    p {
+        color: red;
+    }
+    
+    </style>
+
+    </head>
+    <body>
+    
+    <h2>Online Payment</h2>
+
+    <!-- Product details -->
+
+    <div class="card">
+        <div id="product">
+            <h1>Ant-Man and the Wasp: Quantumania</h1>
+            <p class="productprice" id="price1">Rs 700.00</p>
+            <p><label for="quantity">Quantity: </label><input class="button" type="number" id="product1" name="PQuantity" min=0></p>
+            <p>
+                <button type="button" name="addToCart" onclick="shopedProduct1()" id="0">Add to Cart</button>
+            </p>
+        </div>
+    
+    
+        <div id="product">
+            <h1>Bhoola</h1>
+            <p class="prices">Rs 600.00</p>
+            <p><label for="quantity">Quantity: </label><input class="button" type="number" id="product2" name="PQuantity" min=0></p>
+            <p>
+                <button type="button" name="addToCart" onclick="shopedProduct2()" id="1">Add to Cart</button>
+            </p>
+        </div>
+    
+    
+    <div id="product">
+            <h1>John Wick - Chapter 4</h1>
+            <p class="prices">Rs 850.00</p>
+            <p><label for="quantity">Quantity: </label><input class="button" type="number" id="product4" name="PQuantity" min=0></p>
+            <p>
+                <button type="button" name="addToCart" onclick="shopedProduct4()" id="3">Add to Cart</button>
+            </p>
+        </div>
+    
+    
+        <div id="product">
+            <h1>Gajaman(3D)</h1>
+            <p class="prices">Rs 750.00</p>
+            <p><label for="quantity">Quantity: </label><input class="button" type="number" id="product5" name="PQuantity" min=0></p>
+            <p>
+                <button type="button" name="addToCart" onclick="shopedProduct5()" id="4">Add to Cart</button>
+            </p>
+        </div>
+    
+    
+        <div id="product">
+            <h1>Pathu Thala</h1>
+            <p class="prices">Rs 800.00</p>
+            <p><label for="quantity">Quantity: </label><input class="button" type="number" id="product8" name="PQuantity" min=0></p>
+            <p>
+                <button type="button" name="addToCart" onclick="shopedProduct8()" id="7">Add to Cart</button>
+            </p>
+        </div>
+    
+    
+    </div>
+
+    <h2>Enter your details to confirm your payment</h2>
+
+<form name="myForm" onsubmit="return validateForm()" method="post">
+
+    <!-- Form -->
+
+    <div class="details" id="formdata">
+        <h3 id="fhead">Personal Details</h3>
+        <hr>
+        <label for="fname">Name</label>
+        <div class="input_padding">
+            <input type="text" name="fullname" id="name" size="50" class="button">
+        </div>
+        <label for="mail">Email address</label>
+        <div class="input_padding">
+            <input type="text" name="Email" id="email" size="40" class="button">
+        </div>
+        <label for="address"> Address &emsp; &emsp; &ensp;</label>
+        <div class="input_padding">
+            <input type="text" name="Address" id="address" size="40" class="button">
+        </div>
+        <label for="creditcard"> Credit card No &ensp;</label>
+        <div class="input_padding">
+            <input type="number1" id="Cnumber" class="button">
+        </div>
+        <label for="telephone"> Mobile No &emsp; &emsp;</label>
+        <div class="input_padding">
+            <input type="number1" id="Mnumber" class="button">
+        </div>
+    </div>
+
+
+    <div class="orderbutton">
+        <center>
+            <table align="center">
+                <tr>
+                    <td><input type="submit" value="Checkout" class="formbuttons"></td>
+                    <td><input type="reset" value="Reset" class="formbuttons"></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+</form>
+<script src="student01_js/main.js"></script>
+<script src="student01_js/store.js"></script>
+
+</body>
+</html>
