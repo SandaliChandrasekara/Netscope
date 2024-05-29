@@ -1,5 +1,7 @@
 # Netscope
-The central hub for developing web application for movie ticket purchasing
+A comprehensive web application design
+facilitating seamless movie ticket selection and ensuring
+secure payment processing
 
 Technology Stack :
 - HTML
